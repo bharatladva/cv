@@ -61,7 +61,7 @@ body.html {
 
 @media only screen and (max-width: 1000px) {
   .slider {
-    height: 65vh;
+    height: 50vh;
   }
   .projectslidshowdiv{
     top: 32.5%;
