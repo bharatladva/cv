@@ -1,0 +1,296 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:solid 1px red !important; */
+}
+
+#home {
+    min-width: calc(100vw - 17px);
+    height: 100vh;
+    display: block;
+    position: relative;
+    
+
+
+
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #1d1d1d; */
+    
+    display: block;
+    width: 100vh;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background: #1d1d1d;
+    display: block;
+    min-width: 320px;
+    font-family: "Open Sans",
+    sans-serif;
+    color: #fff;
+    padding-left: 13rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    border: solid 1.5px white;
+    background:#08fdd8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 3px;
+    border: solid 1px white;
+    background: red;
+}
+
+
+
+
+
+
+.mh1 {
+    position: absolute;
+    display: inline-block;;
+    left: 5%;
+    top: 20%;
+    width: 45%;
+    height: 40%;
+    bottom: 10%;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.4;
+    opacity: 1;
+
+
+}
+
+.mh10r1 {
+    position: absolute;
+     white-space: nowrap;
+     width: 100%;
+     height: 33%;
+     top: 0%;
+     
+}
+.mh10r2 {
+    position: absolute;
+     white-space: nowrap;
+     width: 100%;
+     height: 33%;
+     top: 30%;
+     bottom: 50% ;
+}
+.mh10r3 {
+    position: absolute;
+     white-space: nowrap;
+     height: 33%;
+     width: 100%;
+     bottom: 0%;
+    
+}
+
+
+.mh10 {
+    position: relative;
+
+   font-family: 'Plus Jakarta Sans',
+   sans-serif;
+    font-size: 4.4rem;
+    
+    font-weight: bold;
+    color: #ffffff;
+    animation-name: mh10anime;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    transition: all 0.6s ease-out ;
+}
+
+
+.h10b {
+    font-family: 'Lora', serif;
+    font-size: 5.5rem;
+    font-weight: 4rem;
+    color: aqua;
+    text-shadow: 4px 4px 1px red;
+
+}
+
+@keyframes mh10anime {
+
+    0% {
+        color: aqua;
+        /* text-shadow: 3px 3px 1px red; */
+        font-size: 2.5rem;
+        font-weight: 1.5rem;
+        opacity: 0.25;
+        
+    }
+
+    100% {
+        color: aqua;
+        /* text-shadow: 3px 3px 1px red; */
+        font-size:4.9rem;
+        font-weight: 4.5rem;
+    }
+
+        
+    }
+
+
+
+.mh10:hover {
+    color: aqua;
+    padding: 0.625rem;
+    text-shadow: 5px 5px 1px red;
+    -webkit-transition: all 0.3s ease-in-out;
+    animation-name: mh10enime;
+    /* animation-duration: 0.4s; */
+
+    /* animation-direction: alternate; */
+    animation-iteration-count: 3;
+    transition: all 0.3s ease-out;
+
+}
+
+
+
+
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 20 rem;
+}
+
+
+.wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    color: white;
+}
+
+.typing-demo {
+    width: 33ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    animation-delay: 3s;
+    /* animation-duration: 0s; */
+    white-space: nowrap;
+    overflow: hidden;
+    color: #787879;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+.scrolldown {
+    position: absolute;
+    left: 0vw;
+    top: 82vh;
+    color: white;
+    writing-mode: vertical-rl;
+    animation-name: scrolldownone;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.scrolldowntwo {
+    position: absolute;
+    right: 0%;
+    top: 82vh;
+    color: white;
+    writing-mode: vertical-rl;
+    animation-name: scrolldownone;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+@keyframes scrolldownone {
+
+    0% {
+        top: calc(82vh + 1px);
+    }
+
+    50% {
+        top: calc(82vh + 40px);
+    }
+
+    100% {
+        top: calc(82vh + 1px);
+
+    }
+}
+
+
+.contact-mebtn {
+    position: absolute;
+    width: 9%;
+    bottom: 20%;
+    left: 21%;
+    padding: 0.8% !important;
+}
+.resume-btn {
+    position: absolute;
+    width: 9%;
+    bottom: 20%;
+    left: 10%;
+    padding: 0.8% !important;
+}
+
+@media only screen and (max-width: 600px){
+    .contact-mebtn {
+       width: 15%;
+       bottom: 10%;
+       left: 50%;
+    }
+    .resume-btn {
+        bottom: 10%;
+        left: 27%;
+       width: 15%;
+    }
+}

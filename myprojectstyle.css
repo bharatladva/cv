@@ -1,0 +1,78 @@
+#myprojectdiv {
+    position: relative;
+    display: block;
+    min-width: calc(100vw - 17px);
+    height: 100vh;
+    
+    
+}
+
+.projectp {
+
+    font-family: "Spectral",
+    serif;
+    position: relative;
+    top: 15%;
+    width: fit-content;
+    left: 5.4%; 
+    line-height: 1;
+    overflow: auto;
+    resize: both;
+    display: inline-block;
+  font-size: 1.3rem;
+    color: white;
+    
+}
+
+.work{
+    
+    position: absolute;
+    top: 7.5%;
+    right: 0%;
+    z-index: -1;
+    
+    font-family: 'Open Sans',sans-serif;
+    font-size: 410px;
+    font-weight: bold;
+    gap: 0%;
+    font-stretch: expanded;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.04);
+    
+}
+
+@media only screen and (min-width: 1800px)
+{
+    .work{
+        font-size: 450px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .work{
+        font-size: 210px;
+    }
+}
+
+
+
+.viewAllBt{
+      position: absolute;
+      top: 15%;
+      right: 5% !important;
+      
+}
+
+@media only screen and (max-width: 600px){
+    .viewAllBt{
+        top: 30% ;
+        right: 2.5% !important;
+        
+    }
+}
+
+
+
+
