@@ -105,7 +105,7 @@ body.html {
   left: -10%;
   padding-left: 20rem;
   transform-origin: 0 100%;
-  z-index: 0;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 800px) {
