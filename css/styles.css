@@ -92,8 +92,15 @@ nav {
   transition: all 0.5s linear;
 }
 
+.nav-link-wrapper{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
 ul.nav-links {
+
   list-style: none;
+  
 }
 
 ul.nav-links li {
