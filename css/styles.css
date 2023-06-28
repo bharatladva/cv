@@ -87,16 +87,17 @@ nav {
 
 /* toggle btn ends here */
 .links-container {
+  position: absolute;
+  top: 10%;
+  left: 0;
   height: 0;
+  width: 100vw;
   overflow: hidden;
   transition: all 0.5s linear;
+  background: #00000034;
 }
 
-.nav-link-wrapper{
-  position: absolute;
-  top: 5%;
-  left: 30%;
-}
+
 ul.nav-links {
 
   list-style: none;
