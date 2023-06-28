@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red !important;
+  /* border: 1px solid red !important; */
 }
 
 html {
@@ -1040,7 +1040,8 @@ input[type="submit"] {
   }
 
   .map{
-    height: 40vh !important;
+    height: 30vh !important;
+    width: 100% !important;
   }
 
   textarea {
