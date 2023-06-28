@@ -1044,7 +1044,23 @@ input[type="submit"] {
   }
 
   .about-desc{
+    height: 70vh;
     width: 60vw;
+    
+  }
+
+  .about-desc h1{
+    font-size: 1.5rem !important;
+  }
+  #name{
+    font-size: 3rem !important;
+  }
+
+ 
+  .achievement{
+    position: absolute;
+    left: 25%;
+    bottom: 10% !important;
   }
 
   .map{
