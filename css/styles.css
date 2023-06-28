@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
 }
 
 html {
@@ -17,7 +17,6 @@ html {
 }
 
 body {
-
   --text-white: #fff;
   --logo-color: #08fdd8;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -327,7 +326,6 @@ ul.nav-links li a:hover {
   color: var(--logo-color);
 }
 
-
 #section-work {
   margin-left: 5rem !important;
   padding: 5rem 0rem 5rem 0rem;
@@ -355,7 +353,7 @@ ul.nav-links li a:hover {
   bottom: -0px;
   letter-spacing: -10px;
   z-index: -999;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .fake-magicwall {
@@ -626,7 +624,7 @@ ul.nav-links li a:hover {
   width: 90%;
   margin: 50px auto 0;
   position: relative;
-  height: fit-content
+  height: fit-content;
 }
 
 .contact-section h2 {
@@ -1032,8 +1030,27 @@ input[type="submit"] {
 
 /* from 500 pixels and max */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
+  .fake-big-2 {
+    display: none;
+  }
 
+  .about-desc{
+    width: 60vw;
+  }
+
+  .map{
+    height: 40vh !important;
+  }
+
+  textarea {
+    height: 20vh;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px) {
   .fake-big-2 {
     font-size: 12.5rem;
     position: absolute;
@@ -1043,14 +1060,14 @@ input[type="submit"] {
   }
 
   #about {
-    height: fit-content;
+    height: max-content;
     margin-bottom: 10%;
   }
+
+  input[type="submit"] {
+    width: 30vw;
+  }
 }
-
-
-
-
 
 @media screen and (min-width: 630px) and (max-width: 1023px) {
   .about-desc h2 {
@@ -1159,7 +1176,6 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
   #header {
@@ -1179,7 +1195,6 @@ input[type="submit"] {
     top: 0;
   }
 
-
   .fake-magicwall {
     padding-left: 8.5rem;
   }
@@ -1189,24 +1204,19 @@ input[type="submit"] {
     height: 210px;
   }
 
-
-  #skillboll{
+  #skillboll {
     margin-left: 25% !important;
     margin-top: 10% !important;
     scale: 0.8;
-  
   }
 
-  #about{
+  #about {
     margin-bottom: 10%;
-
+  }
 }
-}
-
 
 @media screen and (min-width: 1500px) {
-
-  .fake-big-2{
+  .fake-big-2 {
     left: 40%;
   }
 }

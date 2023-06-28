@@ -78,9 +78,9 @@ html {
   
 }
 
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 600px){
   .tags-cloud{
-    
+    font-size: 0.2rem !important;
   }
 }
 
@@ -130,6 +130,14 @@ html {
 
   
 }
+
+ @media screen and (max-width: 600px){
+  .tags-cloud > .tag{
+    font-size: 0.5rem !important;
+    scale: 1.3;
+  }
+
+ }
 
 .tags-cloud > .tag > .wrap {
     position: absolute;
