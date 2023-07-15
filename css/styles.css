@@ -87,14 +87,9 @@ nav {
 
 /* toggle btn ends here */
 .links-container {
-  position: absolute;
-  top: 10%;
-  left: 0;
-  height: 0;
-  width: 100vw;
-  overflow: hidden;
-  transition: all 0.5s linear;
-  background: #00000034;
+ height: 0;
+    overflow: hidden;
+    transition: all .5s linear;
 }
 
 
@@ -106,7 +101,7 @@ ul.nav-links {
 
 ul.nav-links li {
   padding: 1rem 0;
-  text-align: center;
+  text-align: center !important; 
 }
 
 ul.nav-links li a {
@@ -312,6 +307,7 @@ ul.nav-links li a:hover {
   font-size: 1.3rem;
   color: #505050;
   margin-bottom: 30px;
+  
 }
 
 .cicons {
