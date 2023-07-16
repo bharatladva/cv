@@ -87,21 +87,18 @@ nav {
 
 /* toggle btn ends here */
 .links-container {
- height: 0;
-    overflow: hidden;
-    transition: all .5s linear;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear;
 }
 
-
 ul.nav-links {
-
   list-style: none;
-  
 }
 
 ul.nav-links li {
   padding: 1rem 0;
-  text-align: center !important; 
+  text-align: center !important;
 }
 
 ul.nav-links li a {
@@ -307,7 +304,6 @@ ul.nav-links li a:hover {
   font-size: 1.3rem;
   color: #505050;
   margin-bottom: 30px;
-  
 }
 
 .cicons {
@@ -324,6 +320,7 @@ ul.nav-links li a:hover {
 
 .icons .fab:hover {
   color: var(--logo-color);
+  text-shadow: #fff 1px 0 20px;
 }
 
 .footer-icons .fab:hover {
@@ -720,7 +717,7 @@ input[type="submit"] {
 .map {
   width: 55vw !important;
   height: 67vh !important;
-  filter: brightness(80%);
+  filter: brightness(90%);
 
   right: 5rem;
 
@@ -1039,27 +1036,25 @@ input[type="submit"] {
     display: none;
   }
 
-  .about-desc{
+  .about-desc {
     height: 70vh;
     width: 60vw;
-    
   }
 
-  .about-desc h1{
+  .about-desc h1 {
     font-size: 1.5rem !important;
   }
-  #name{
+  #name {
     font-size: 3rem !important;
   }
 
- 
-  .achievement{
+  .achievement {
     position: absolute;
     left: 25%;
     bottom: 10% !important;
   }
 
-  .map{
+  .map {
     height: 30vh !important;
     width: 100% !important;
   }
@@ -1067,11 +1062,15 @@ input[type="submit"] {
   textarea {
     height: 20vh;
   }
-
-
 }
 
 @media screen and (max-width: 1024px) {
+  .links-container {
+    position: absolute;
+    top: 10%;
+    width: 100vw !important;
+    background: rgba(0, 0, 0, 0.267);
+  }
   .fake-big-2 {
     font-size: 12.5rem;
     position: absolute;

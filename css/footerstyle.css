@@ -51,9 +51,8 @@
   margin-right: 1rem;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
   color: #08fdd8;
-  
 }
 
 .footer-distributed .footer-company-name {
@@ -149,7 +148,7 @@
   margin-bottom: 5px;
 }
 
-.footer-icon a:hover{
+.footer-icon a:hover {
   background-color: #08fdd8;
 }
 
