@@ -1038,7 +1038,7 @@ input[type="submit"] {
 
   .about-desc {
     height: 70vh;
-    width: 60vw;
+    width: 100vw;
   }
 
   .about-desc h1 {
